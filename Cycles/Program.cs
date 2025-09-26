@@ -43,13 +43,19 @@
             //Password attempt
             string password = "qwerty";
             Console.WriteLine("Enter password:");
-            
+            int attempts = 0;
             do
             {
                 string input = Console.ReadLine();
                 if (input != password)
                 {
+                    attempts += 1;
                     Console.WriteLine("Incorrect password. Try again:");
+                    if (attempts >= 3)
+                    {
+                        Console.WriteLine("Access denied.");
+                        break;
+                    }
                 }
                 else
                 {
