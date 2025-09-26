@@ -1,31 +1,66 @@
-﻿var random = new Random();
-int[] player1 = new[] { random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
-int[] player2 = new[] { random.Next(100), random.Next(100), random.Next(100), random.Next(100) };
-
-int scorePlayer1 = 0;
-int scorePlayer2 = 0;
-
-for (int i = 0; i < player1.Length; i++)
+﻿namespace HomeWork
 {
-    Console.WriteLine($"Round {i + 1}: Player 1 plays {player1[i]}, Player 2 plays {player2[i]}");
-    if (player1[i] > player2[i])
+    internal class Program
     {
-        scorePlayer1++;
+        static void Main(string[] args)
+        {
+            // Fibonaccy
+            int a = 0;
+            int b = 1;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            for (int i = 2; i < 10; i++)
+            {
+                int c = a + b;
+                Console.WriteLine(c);
+                a = b;
+                b = c;
+            }
+            Console.WriteLine("-------------------");
+
+            //Even numbers
+            for (int i = 2; i <= 20; i += 2)
+            {
+                Console.WriteLine("Even number: " + i);
+            }
+
+            Console.WriteLine("-------------------");
+
+            //Multiplication table
+
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 1; j <= 5; j++)
+                {
+                    Console.Write((i * j).ToString().PadLeft(4));
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("-------------------");
+
+
+            //Password attempt
+            string password = "qwerty";
+            Console.WriteLine("Enter password:");
+            
+            do
+            {
+                string input = Console.ReadLine();
+                if (input != password)
+                {
+                    Console.WriteLine("Incorrect password. Try again:");
+                }
+                else
+                {
+                    Console.WriteLine("Access granted.");
+                    break;
+                }
+            } while (true);
+
+
+
+        }
+        
     }
-    else if (player1[i] < player2[i])
-    {
-        scorePlayer2++;
-    }
-}
-if (scorePlayer1 > scorePlayer2)
-{
-    Console.WriteLine("Player 1 wins with score: " + scorePlayer1 + " to " + scorePlayer2);
-}
-else if (scorePlayer1 < scorePlayer2)
-{
-    Console.WriteLine("Player 2 wins with score: " + scorePlayer2 + " to " + scorePlayer1);
-}
-else
-{
-    Console.WriteLine("It's a tie with score: " + scorePlayer1 + " to " + scorePlayer2);
 }
