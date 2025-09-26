@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\bin\Debug\net9.0\Cycles.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\bin\Debug\net9.0\Cycles.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\bin\Debug\net9.0\Cycles.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\bin\Debug\net9.0\Cycles.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\bin\Debug\net9.0\Cycles.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\refint\Cycles.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\Cycles.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Cycles\obj\Debug\net9.0\ref\Cycles.dll
