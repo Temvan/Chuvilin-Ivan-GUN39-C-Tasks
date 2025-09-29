@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\bin\Debug\net9.0\Classes.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\bin\Debug\net9.0\Classes.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\bin\Debug\net9.0\Classes.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\bin\Debug\net9.0\Classes.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\bin\Debug\net9.0\Classes.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\refint\Classes.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\Classes.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Classes\obj\Debug\net9.0\ref\Classes.dll
