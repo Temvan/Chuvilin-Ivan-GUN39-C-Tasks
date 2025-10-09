@@ -2,8 +2,8 @@ namespace Memory;
 
 public struct Room
 {
-    public Unit Unit { get; set; }
-    public Weapon Weapon { get; set; } 
+    public Unit Unit { get; private set; }
+    public Weapon Weapon { get; private set; } 
    
     public Room(Unit unit, Weapon weapon)
     {

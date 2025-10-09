@@ -32,6 +32,6 @@ public class Weapon
     // Метод для нанесения урона
     public int GetDamage()
     {
-        return (DamageRange.Min + DamageRange.Max) / 2;
+        return DamageRange.Get();
     }
 }

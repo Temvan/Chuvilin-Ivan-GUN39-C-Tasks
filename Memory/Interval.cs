@@ -5,7 +5,7 @@ public struct Interval
     private static readonly Random Random = new Random();
     public int Min { get; }
     public int Max { get; }
-    public int Get => Random.Next(Min, Max);
+    public int Get => Random.Next(Min, Max + 1);
 
     public Interval(int minValue, int maxValue)
     {

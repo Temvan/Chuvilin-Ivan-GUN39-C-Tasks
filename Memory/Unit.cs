@@ -11,26 +11,28 @@ public class Unit
 
     public Interval DamageRange { get; private set; }
 
-    public int Damage => DamageRange.Get;
+    public int Damage => DamageRange.Get();
 
     public float Armor => _armor;
 
     // Конструкторы
     public Unit() : this(name: "Unknown Unit")
     { }
+
+    public Unit(string name) : this(name, new Interval(50, 100))
+    { }
+
     public Unit(string name, Interval healthRange)
     {
         Name = name;
-        _health = healthRange.Get;
+        _health = healthRange.Get();
         _armor = 0.6f;
         DamageRange = new Interval(0, 10);
 
     }
-    public Unit(string name, float health, int minDamage, int maxDamage) : this(name, health)
+    public Unit(string name, Interval healthRange, int minDamage, int maxDamage) : this(name, healthRange)
     {
         SetDamageParams(minDamage, maxDamage);
-  
-        _armor = 0.6f;
     }
 
 
