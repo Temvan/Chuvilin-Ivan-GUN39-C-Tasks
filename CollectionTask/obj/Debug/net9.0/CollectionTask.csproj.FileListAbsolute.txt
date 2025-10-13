@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\bin\Debug\net9.0\CollectionTask.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\bin\Debug\net9.0\CollectionTask.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\bin\Debug\net9.0\CollectionTask.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\bin\Debug\net9.0\CollectionTask.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\bin\Debug\net9.0\CollectionTask.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\refint\CollectionTask.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\CollectionTask.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\CollectionTask\obj\Debug\net9.0\ref\CollectionTask.dll
