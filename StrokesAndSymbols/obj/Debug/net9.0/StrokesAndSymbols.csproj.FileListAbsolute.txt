@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\bin\Debug\net9.0\StrokesAndSymbols.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\bin\Debug\net9.0\StrokesAndSymbols.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\bin\Debug\net9.0\StrokesAndSymbols.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\bin\Debug\net9.0\StrokesAndSymbols.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\bin\Debug\net9.0\StrokesAndSymbols.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\refint\StrokesAndSymbols.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\StrokesAndSymbols.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\StrokesAndSymbols\obj\Debug\net9.0\ref\StrokesAndSymbols.dll

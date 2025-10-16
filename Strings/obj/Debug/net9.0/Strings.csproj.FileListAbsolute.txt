@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\bin\Debug\net9.0\Strings.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\bin\Debug\net9.0\Strings.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\bin\Debug\net9.0\Strings.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\bin\Debug\net9.0\Strings.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\bin\Debug\net9.0\Strings.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\refint\Strings.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\Strings.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\Strings\obj\Debug\net9.0\ref\Strings.dll
