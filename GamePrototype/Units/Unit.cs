@@ -7,7 +7,7 @@ namespace GamePrototype.Units
         private const int INVENTORY_SIZE = 3;
         private uint _health;
         private uint _maxHealth;
-        private uint BaseDamage;
+        protected uint BaseDamage;
         protected Inventory Inventory;
         public string Name { get; private set; }    
 
@@ -30,7 +30,16 @@ namespace GamePrototype.Units
 
         public void ApplyDamage(uint damage)
         {
-            _health -= CalculateAppliedDamage(damage);
+            var damageApplied = CalculateAppliedDamage(damage);
+            if (_health < damageApplied || (_health - damageApplied) <= 0)
+            {
+                _health -= 0;
+            }
+            else
+            {
+                _health -= damageApplied;
+            }
+           
             DamageReceiveHandler();
         }
 
