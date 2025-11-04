@@ -11,7 +11,7 @@ namespace GamePrototype.Units
 
         public Player(string name, uint health, uint maxHealth, uint baseDamage) : base(name, health, maxHealth, baseDamage)
         {
-
+  
         }
 
         public override uint GetUnitDamage()

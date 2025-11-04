@@ -8,6 +8,12 @@ namespace GamePrototype.Game
     public sealed class GameLoop
     {
         private Unit _player;
+
+        private UnitFactoryBase _factory;
+
+        private DungeonBuilder _dungeonBuilder;
+
+        private Difficulty _difficulty;
         private DungeonRoom _dungeon;
         private readonly CombatManager _combatManager = new CombatManager();
 
@@ -23,10 +29,45 @@ namespace GamePrototype.Game
         private void Initialize()
         {
             Console.WriteLine("Welcome, player!");
-            _dungeon = DungeonBuilder.BuildDungeon();
+            
+
+            Console.WriteLine("Choose difficulty: 1 - Easy, 2 - Hard");
+
+            var currentDifficulty = Console.ReadLine();
+            switch (currentDifficulty)
+            {
+                case "1":
+                    _difficulty = Difficulty.Easy;
+                    _factory = new EasyUnitFactory();
+                    _dungeonBuilder = new EasyDungeonBuilder(_factory);
+                    Console.WriteLine("Let's go on Easy mode!");
+                    break;
+                case "2":
+                    _difficulty = Difficulty.Hard;
+                    _factory = new HardUnitFactory();
+                    _dungeonBuilder = new HardDungeonBuilder(_factory);
+                    Console.WriteLine("Let's go on Hard mode!");
+                    break;
+                default:
+                    Console.WriteLine("You're wrong, I'll choose for u - Easy");
+                     _difficulty = Difficulty.Easy;
+                    _factory = new EasyUnitFactory();
+                    _dungeonBuilder = new EasyDungeonBuilder(_factory);
+                    break;
+            }
+
+            
+          
+
+
             Console.WriteLine("Enter your name:");
-            _player = UnitFactoryDemo.CreatePlayer(Console.ReadLine());
+            _player = _factory.CreatePlayer(Console.ReadLine());
             Console.WriteLine($"Hello {_player.Name}");
+            _dungeon = _dungeonBuilder.BuildDungeon();
+            Console.WriteLine("Dungeon is created!");
+           
+        
+                        
         }
 
         private void StartGameLoop()
