@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\bin\Debug\net9.0\DelegatesAndEvents.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\bin\Debug\net9.0\DelegatesAndEvents.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\bin\Debug\net9.0\DelegatesAndEvents.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\bin\Debug\net9.0\DelegatesAndEvents.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\bin\Debug\net9.0\DelegatesAndEvents.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\refint\DelegatesAndEvents.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\DelegatesAndEvents.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\DelegatesAndEvents\obj\Debug\net9.0\ref\DelegatesAndEvents.dll

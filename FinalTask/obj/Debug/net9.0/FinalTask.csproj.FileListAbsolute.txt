@@ -1,0 +1,15 @@
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\bin\Debug\net9.0\FinalTask.exe
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\bin\Debug\net9.0\FinalTask.deps.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\bin\Debug\net9.0\FinalTask.runtimeconfig.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\bin\Debug\net9.0\FinalTask.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\bin\Debug\net9.0\FinalTask.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.AssemblyInfoInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.AssemblyInfo.cs
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.csproj.CoreCompileInputs.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.sourcelink.json
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\refint\FinalTask.dll
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.pdb
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\FinalTask.genruntimeconfig.cache
+C:\Documents\Chuvilin-Ivan-GUN39-C#Tasks\FinalTask\obj\Debug\net9.0\ref\FinalTask.dll
