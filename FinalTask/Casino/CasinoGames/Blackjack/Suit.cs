@@ -1,7 +1,10 @@
-public enum Suit
+namespace FinalTask.Casino.CasinoGames.Blackjack
 {
-    Diamonds,
-    Hearts,
-    Clubs,
-    Spades
+    public enum Suit
+    {
+        Diamonds,
+        Hearts,
+        Clubs,
+        Spades
+    }
 }

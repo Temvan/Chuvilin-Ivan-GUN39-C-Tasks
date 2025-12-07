@@ -1,16 +1,14 @@
 using System;
-using FinalTask;
-
 
 namespace FinalTask.Casino.CasinoGames
 {
-    public abstract class CasinoGameBase
+    public abstract class CasinoGameBase : IGame
     {
         public event Action OnWin;
         public event Action OnLose;
         public event Action OnDraw;
 
-        public abstract void PlayGame();
+        public abstract void StartGame();
         protected abstract void FactoryMethod();
        
         protected void OnWinInvoke() => OnWin?.Invoke();

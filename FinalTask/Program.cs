@@ -1,32 +1,38 @@
 ﻿using System;
-using FinalTask;
-using FinalTask.Exceptions;
+using FinalTask.Casino;
+using FinalTask.Casino.CasinoGames;
+using FinalTask.Casino.CasinoGames.Blackjack;
+using FinalTask.Casino.CasinoGames.Dice;
+using FinalTask.SaveLoad;
+using FinalTask.SaveLoad.Data;
 
-class Program
+namespace FinalTask
 {
-    static void Main(string[] args)
+    internal static class Program
     {
-        try
+        private static void Main(string[] args)
         {
-            // 1. Создаём кость с диапазоном от 1 до 6
-            Dice dice = new Dice(1, 6);
-
-            // 2. Бросаем кость несколько раз
-            Console.WriteLine("Броски кости:");
-            for (int i = 0; i < 5; i++)
+            try
             {
-                Console.WriteLine($"Бросок {i + 1}: {dice.Number}");
+                string savePath = System.IO.Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                    "FinalTaskSaves");
+
+                ISaveLoadService<PlayerData> saveLoadService = new FileSystemSaveLoadService<PlayerData>(savePath);
+
+                CasinoGameBase blackjackGame = new BlackjackGame(36);
+                CasinoGameBase diceGame = new DiceGame(2, 1, 6);
+
+                IGame casino = new Casino.Casino(saveLoadService, blackjackGame, diceGame);
+                casino.StartGame();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Fatal error: {ex.Message}");
             }
 
-            // 3. Пробуем создать некорректную кость
-            Console.WriteLine("\nПробуем создать кость с диапазоном 0–6:");
-            Dice invalidDice = new Dice(0, 6); // должно вызвать исключение
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
-        catch (WrongDiceNumberException ex)
-        {
-            Console.WriteLine($"Ошибка: {ex.Message}");
-        }
-
-        Console.ReadLine();
     }
 }

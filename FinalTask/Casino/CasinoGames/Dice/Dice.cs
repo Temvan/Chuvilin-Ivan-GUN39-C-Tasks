@@ -1,7 +1,7 @@
 using System;
 using FinalTask.Exceptions;
 
-namespace FinalTask
+namespace FinalTask.Casino.CasinoGames.Dice
 {
     public struct Dice
     {
@@ -13,7 +13,7 @@ namespace FinalTask
 
         public Dice(int min, int max)
         {
-            if (min <= 0 || max <= 0 || min >= max)
+            if (min < 1 || max < 1 || min > max)
             {
                 throw new WrongDiceNumberException(min, max);
             }
