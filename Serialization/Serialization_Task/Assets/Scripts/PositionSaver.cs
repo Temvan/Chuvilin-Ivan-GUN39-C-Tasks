@@ -3,27 +3,31 @@ using System.Collections.Generic;
 using System.IO;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DefaultNamespace
 {
 	public class PositionSaver : MonoBehaviour
 	{
+
 		[Serializable]
 		public struct Data
 		{
-			public Vector3 Position;
+            public Vector3 Position;
 			public float Time;
 		}
 
-		[Serializable][ReadOnly]
+		[SerializeField, Tooltip("Use the context menu in the inspector and the Create File command")]
+		[ReadOnly]
 		private TextAsset _json;
 
-		
+		[field: SerializeField, HideInInspector]
 		public List<Data> Records { get; private set; }
 
 		private void Awake()
 		{
 			//todo comment: Что будет, если в теле этого условия не сделать выход из метода?
+			// ответ: появится ошибка, так как файл не будет найден
 			if (_json == null)
 			{
 				gameObject.SetActive(false);
@@ -33,6 +37,7 @@ namespace DefaultNamespace
 			
 			JsonUtility.FromJsonOverwrite(_json.text, this);
 			//todo comment: Для чего нужна эта проверка (что она позволяет избежать)?
+			// ответ: проверяет , имеется ли уже список, и если нет, то создает новый
 			if (Records == null)
 				Records = new List<Data>(10);
 		}
@@ -40,12 +45,14 @@ namespace DefaultNamespace
 		private void OnDrawGizmos()
 		{
 			//todo comment: Зачем нужны эти проверки (что они позволляют избежать)?
+			// ответ: позволяют избежать повторное создание точек, если список пустой
 			if (Records == null || Records.Count == 0) return;
 			var data = Records;
 			var prev = data[0].Position;
 			Gizmos.color = Color.green;
 			Gizmos.DrawWireSphere(prev, 0.3f);
 			//todo comment: Почему итерация начинается не с нулевого элемента?
+			// ответ: потому что нулевой элемент - уже использован в предыдущем значении prev
 			for (int i = 1; i < data.Count; i++)
 			{
 				var curr = data[i].Position;
@@ -54,14 +61,16 @@ namespace DefaultNamespace
 				prev = curr;
 			}
 		}
-		
+
 #if UNITY_EDITOR
 		[ContextMenu("Create File")]
 		private void CreateFile()
 		{
 			//todo comment: Что происходит в этой строке?
+			// ответ: создается новый текст файл с именем Path.txt
 			var stream = File.Create(Path.Combine(Application.dataPath, "Path.txt"));
 			//todo comment: Подумайте для чего нужна эта строка? (а потом проверьте догадку, закомментировав) 
+			// ответ: 
 			stream.Dispose();
 			UnityEditor.AssetDatabase.Refresh();
 			//В Unity можно искать объекты по их типу, для этого используется префикс "t:"
@@ -88,8 +97,18 @@ namespace DefaultNamespace
 
 		private void OnDestroy()
 		{
-			//todo logic...
+		if (_json == null)
+		return;
+
+		var path = UnityEditor.AssetDatabase.GetAssetPath(_json);
+		if (string.IsNullOrEmpty(path))
+		return;
+
+		var json = JsonUtility.ToJson(this, true);
+		File.WriteAllText(path, json);
+
+		UnityEditor.AssetDatabase.Refresh();
 		}
 #endif
-	}
+    }
 }
